@@ -1,0 +1,20 @@
+diff --git a/eupplayer_townsEmulator.cc b/eupplayer_townsEmulator.cc
+index 61a6ce8..22642bc 100644
+--- a/eupplayer_townsEmulator.cc
++++ b/eupplayer_townsEmulator.cc
+@@ -1180,6 +1180,7 @@ void EUP_TownsEmulator::nextTick()
+       int d = buf0[i];
+       d *= this->volume();
+       d >>= 10;			// いいかげんだなぁ
++      d = d > 32767 ? 32767 : d < -32768 ? -32768 : d;  /* modland: clip */
+       d ^= _outputSampleUnsigned?0x8000:0;
+       buf1[i] = ((d >> 8) & 0xff);
+     }
+@@ -1190,6 +1191,7 @@ void EUP_TownsEmulator::nextTick()
+       int d = buf0[i];
+       d *= this->volume();
+       d >>= 10;			// いいかげんだなぁ
++      d = d > 32767 ? 32767 : d < -32768 ? -32768 : d;  /* modland: clip */
+       d ^= _outputSampleUnsigned?0x8000:0;
+       if (_outputSampleLSBFirst) {
+ 	buf1[i*2+0] = ((d >> 0) & 0xff);

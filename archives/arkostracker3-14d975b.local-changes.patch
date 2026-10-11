@@ -1,0 +1,12 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a3e7fb3..1cc8543 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -68,6 +68,7 @@ add_subdirectory(source/commandLineTools/songToRawLinear)
+ add_subdirectory(source/commandLineTools/songToYm)
+ add_subdirectory(source/commandLineTools/songToVgm)
+ add_subdirectory(source/commandLineTools/songToWav)
++add_subdirectory(source/commandLineTools/modlandAt3)
+ add_subdirectory(source/commandLineTools/songToSfx)
+ add_subdirectory(source/commandLineTools/songToSamples)
+ add_subdirectory(source/commandLineTools/z80Profiler)

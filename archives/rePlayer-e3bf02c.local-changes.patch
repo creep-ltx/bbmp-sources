@@ -1,0 +1,59 @@
+diff --git a/source/Replays/ProTrekkr/protrekkr/files/synths.cpp b/source/Replays/ProTrekkr/protrekkr/files/synths.cpp
+index 1398c00a..9b1b3a3c 100644
+--- a/source/Replays/ProTrekkr/protrekkr/files/synths.cpp
++++ b/source/Replays/ProTrekkr/protrekkr/files/synths.cpp
+@@ -56,7 +56,7 @@ void Read_Synth_Params(int (*Read_Function)(void *, int ,int, ReplayerFile&),
+     {
+         if(read_disto && read_lfo_adsr)
+         {
+-            Read_Function(&PARASynth[idx], sizeof(Synth_Parameters) - 4 - 2, 1, in);
++            Read_Function(&PARASynth[idx], 156 - 4, 1, in); /* modland: the size it had in these versions */
+             PARASynth[idx].disto /= 2;
+             PARASynth[idx].disto += 64;
+             PARASynth[idx].glb_volume = 0x7f;
+@@ -65,7 +65,7 @@ void Read_Synth_Params(int (*Read_Function)(void *, int ,int, ReplayerFile&),
+         {
+             if(read_disto)
+             {
+-                Read_Function(&PARASynth[idx], sizeof(Synth_Parameters) - 32 - 4 - 2, 1, in);
++                Read_Function(&PARASynth[idx], 156 - 32 - 4, 1, in); /* modland: the size it had in these versions */
+             }
+             else
+             {
+@@ -158,7 +158,7 @@ void Read_Synth_Params(int (*Read_Function)(void *, int ,int, ReplayerFile&),
+                 }
+                 else
+                 {
+-                    Read_Function(&PARASynth[idx], sizeof(Synth_Parameters) - 4 - 32 - 4 - 2, 1, in);
++                    Read_Function(&PARASynth[idx], 156 - 4 - 32 - 4, 1, in); /* modland: the size it had in these versions */
+                 }
+             }
+         }
+diff --git a/source/Replays/ProTrekkr/protrekkr/replay/include/synth.h b/source/Replays/ProTrekkr/protrekkr/replay/include/synth.h
+index 3d119bb0..d4f4cde2 100644
+--- a/source/Replays/ProTrekkr/protrekkr/replay/include/synth.h
++++ b/source/Replays/ProTrekkr/protrekkr/replay/include/synth.h
+@@ -66,7 +66,8 @@ typedef long long int64;
+ #include <stdint.h>
+ typedef uint64_t Uint64;
+ #else
+-typedef unsigned long long Uint64;
++#include <stdint.h>
++typedef uint64_t Uint64;
+ #endif
+ #endif
+ 
+diff --git a/source/Replays/ProTrekkr/protrekkr/samples/aiff/include/aiff.h b/source/Replays/ProTrekkr/protrekkr/samples/aiff/include/aiff.h
+index cd0fe80a..0e20a063 100644
+--- a/source/Replays/ProTrekkr/protrekkr/samples/aiff/include/aiff.h
++++ b/source/Replays/ProTrekkr/protrekkr/samples/aiff/include/aiff.h
+@@ -70,7 +70,8 @@ typedef unsigned __int64 Uint64;
+ #include <stdint.h>
+ typedef uint64_t Uint64;
+ #else
+-typedef unsigned long long Uint64;
++#include <stdint.h>
++typedef uint64_t Uint64;
+ #endif
+ #endif
+ 

@@ -1,0 +1,12 @@
+diff --git a/MADDriver.source/MainDriver.c b/MADDriver.source/MainDriver.c
+index 7ffa349..14cc46d 100644
+--- a/MADDriver.source/MainDriver.c
++++ b/MADDriver.source/MainDriver.c
+@@ -2664,7 +2664,6 @@ MADErr MADMusicSaveCString(MADMusic *music, const char *cName, bool compressMAD)
+ 					MADBE16(&shortPtr[ll]);
+ 				}
+ #else
+-				short *shortPtr = (short*)dataCopy;
+ 				for (ll = 0; ll < inOutCount / 2; ll++) {
+ 					MADBE16(&shortPtr[ll]);
+ 				}

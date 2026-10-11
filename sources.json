@@ -1,0 +1,1041 @@
+[
+ {
+  "name": "7zip",
+  "url": "https://www.7-zip.org/a/7z2603-src.tar.xz",
+  "version": "26.03",
+  "licence": "LGPL-2.1-or-later with the unRAR restriction (DOC/License.txt)",
+  "used_by": "the player (archives.py, keep.py run 7z); the Flatpak builds 7zz from it",
+  "archive": "7z2603-src.tar.xz",
+  "size": 1552200,
+  "sha256": "9cbde5099c6deb73691b0579063da5827522ccbbcba3f0020fd04e8c8c16c0d4"
+ },
+ {
+  "name": "CPM.cmake",
+  "url": "https://github.com/cpm-cmake/CPM.cmake/releases/download/v0.40.8/CPM.cmake",
+  "version": "0.40.8",
+  "licence": "MIT",
+  "used_by": "bbmp-ay-at3 (Arkos Tracker 3's CMake downloads it; build-ay.sh puts it where CMake looks)",
+  "archive": "CPM-0.40.8.cmake",
+  "size": 42313,
+  "sha256": "78ba32abdf798bc616bab7c73aac32a17bbd7b06ad9e26a6add69de8f3ae4791"
+ },
+ {
+  "name": "DarkWave-Studio",
+  "url": "https://web.archive.org/web/20130121175233id_/http://www.experimentalscene.com/downloads/DarkWave-Studio-4.1.6-Source.zip",
+  "version": "4.1.6",
+  "licence": "GPL-3.0 (LICENSE.txt)",
+  "used_by": "bbmp-darkwave",
+  "archive": "DarkWave-Studio-4.1.6-Source.zip",
+  "size": 1145032,
+  "sha256": "db42a257cf11da396a0943551e89b9fbe07e270c7fd877d3dd489e5941cd2352"
+ },
+ {
+  "name": "GBSoundSystem",
+  "url": "https://github.com/gbdev/GBSoundSystem.git",
+  "version": "c0c6a6f",
+  "commit": "c0c6a6f32c1f703be979efc54c4891c275189ab1",
+  "date": "2023-05-08",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-retro (Gameboy Tracker .mgb)",
+  "archive": "GBSoundSystem-c0c6a6f.tar.xz",
+  "size": 199524,
+  "sha256": "5b2046f720649d4caf8a5c317c84f3d0139934e6ae5a6fd14d65990053fdb412"
+ },
+ {
+  "name": "GoatTracker_1.53",
+  "url": "https://cadaver.github.io/tools/goattrk.zip",
+  "version": "1.53",
+  "licence": "GPL-2.0 (copying)",
+  "used_by": "bbmp-misc (GoatTracker)",
+  "archive": "GoatTracker_1.53.zip",
+  "size": 420948,
+  "sha256": "f12df334df5b1749fa0660575d63520a5e064ed254e4390cede6b03f9808ecef"
+ },
+ {
+  "name": "GoatTracker_1.53_Stereo",
+  "url": "https://cadaver.github.io/tools/gstereo.zip",
+  "version": "1.53 stereo",
+  "licence": "GPL-2.0 (copying)",
+  "used_by": "bbmp-misc (GoatTracker)",
+  "archive": "GoatTracker_1.53_Stereo.zip",
+  "size": 393625,
+  "sha256": "cf3344ab270343d213c8fbd87adae5ca1e47bd54b2be9764ca07a10a5fc3c640"
+ },
+ {
+  "name": "GoatTracker_2.77",
+  "url": "https://downloads.sourceforge.net/project/goattracker2/GoatTracker%202/2.77/GoatTracker_2.77.zip",
+  "version": "2.77",
+  "licence": "GPL-2.0 (copying)",
+  "used_by": "bbmp-misc (GoatTracker)",
+  "archive": "GoatTracker_2.77.zip",
+  "size": 1489033,
+  "sha256": "96c2bd6a6ab3aca2f5bb18b1c764ac6ea69ac245cae14002a72cd87c554561ef"
+ },
+ {
+  "name": "JUCE",
+  "url": "https://github.com/JulienNevo/JUCE_7_0_1_2_Xcode16.git",
+  "version": "2d14a1f",
+  "commit": "2d14a1fcbe80264c571e9b59bf7242513c1c6310",
+  "date": "2025-11-26",
+  "licence": "JUCE 7: AGPL-3.0 or a commercial licence (LICENSE.md)",
+  "used_by": "bbmp-ay-at3 (Arkos Tracker 3 is built on it)",
+  "archive": "JUCE-2d14a1f.tar.xz",
+  "size": 9738644,
+  "sha256": "32d276f8c46fe205656e3a7c2513b8ecef1bd8a9c5c9c3dc46be63aa4e5a0143"
+ },
+ {
+  "name": "PlayerPRO",
+  "url": "https://github.com/MaddTheSane/PlayerPRO.git",
+  "version": "0a07010",
+  "commit": "0a07010443053f54636adcd2d0460d1196a6fd88",
+  "date": "2026-05-19",
+  "licence": "public domain (LICENSE.txt)",
+  "used_by": "bbmp-pc (MAD)",
+  "archive": "PlayerPRO-0a07010.tar.xz",
+  "size": 1680084,
+  "sha256": "567880bb5a64de34fa7ecb225985a9285b44f683eb3568f3a400d9bd1c991861",
+  "local_patch": "PlayerPRO-0a07010.local-changes.patch"
+ },
+ {
+  "name": "StSound",
+  "url": "https://github.com/arnaud-carre/StSound.git",
+  "version": "a27c293",
+  "commit": "a27c29339bed5076cd3342cae8270d2e813b914c",
+  "date": "2026-09-13",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-chip",
+  "archive": "StSound-a27c293.tar.xz",
+  "size": 59968,
+  "sha256": "a3aa75481243f81b7145029d0e9e710e70d64a3eebba1e7e8e0ffdda8d7d716f",
+  "changed": {
+   "why": "the example songs",
+   "files_taken_out": 12
+  },
+  "original_sha256": "b3d7a1c274ad51e8c7be0a1ae5610f0e77cd720a73775825fe5a8aae70ea04a1"
+ },
+ {
+  "name": "adplug",
+  "url": "https://github.com/adplug/adplug.git",
+  "version": "1e6133f",
+  "commit": "1e6133f94abd99625c628fd01d7a9c8b681be7de",
+  "date": "2026-09-05",
+  "licence": "LGPL-2.1 (COPYING)",
+  "used_by": "bbmp-chip, bbmp-misc",
+  "archive": "adplug-1e6133f.tar.xz",
+  "size": 368236,
+  "sha256": "fc6195b1491816eb0b80b187a717f6d4e85f5552cdcd64c828653a9441f9071f",
+  "changed": {
+   "why": "the test songs and their reference output",
+   "files_taken_out": 610
+  },
+  "original_sha256": "10c449fd395ffc35f8aa6be26698bc25f229c03249015baedd2ef3efbda9d810"
+ },
+ {
+  "name": "amitools",
+  "url": "https://pypi.org/project/amitools/0.8.1/",
+  "version": "0.8.1",
+  "licence": "GPL-2.0-or-later (PyPI metadata)",
+  "used_by": "bbmp-amiga (runs StoneTracker's unpacker) when vamos/lha are not installed",
+  "archive": "amitools-0.8.1.tar.gz",
+  "size": 3279815,
+  "sha256": "f622c0725c15737e7d4820ed147f930f4cfb7b80b04c786c2bc3943b799faf7e"
+ },
+ {
+  "name": "aosdk",
+  "url": "https://github.com/nmlgc/aosdk.git",
+  "version": "e359a6e",
+  "commit": "e359a6e5154b2ba8499fb1f24a1f5f8a18538a61",
+  "date": "2023-03-14",
+  "licence": "BSD-3-Clause (license.txt)",
+  "used_by": "bbmp-console (P.E.Op.S. SPU)",
+  "archive": "aosdk-e359a6e.tar.xz",
+  "size": 321100,
+  "sha256": "7e21d987c9878af27610565c3bdc245eaba65e30f8ec4bccd952212124cb39e3",
+  "changed": {
+   "why": "the example songs (game music)",
+   "files_taken_out": 7
+  },
+  "original_sha256": "5cdea6d538162b15ef4935a7479ad9da7d12ce7b1e1031e16444cd8059e34143"
+ },
+ {
+  "name": "arkostracker3",
+  "url": "https://bitbucket.org/JulienNevo/arkostracker3.git",
+  "version": "14d975b",
+  "commit": "14d975bdf0787cde4a5fa9425abe793e4a3a3536",
+  "date": "2026-08-12",
+  "licence": "MIT (LICENSE.txt)",
+  "used_by": "bbmp-ay-at3 (Starkos, Arkos Tracker)",
+  "archive": "arkostracker3-14d975b.tar.xz",
+  "size": 8710844,
+  "sha256": "79e54454849699d77edc4667533af564ad702723ac0f386b6a3daef5a86af9a4",
+  "local_patch": "arkostracker3-14d975b.local-changes.patch"
+ },
+ {
+  "name": "ayumi",
+  "url": "https://github.com/true-grue/ayumi.git",
+  "version": "07c08b4",
+  "commit": "07c08b4874c359169e4a028edf73f046d8b763e2",
+  "date": "2021-11-24",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-ay",
+  "archive": "ayumi-07c08b4.tar.xz",
+  "size": 8896,
+  "sha256": "c13583316bc44aff7151f2dc5df239d8c0c01b3f34e43699c00e8acc94bcfde0"
+ },
+ {
+  "name": "bencodetools",
+  "url": "https://gitlab.com/heikkiorsila/bencodetools.git",
+  "version": "5fa73d3",
+  "commit": "5fa73d33780cc5a70b8958b955a01d8d12aa7660",
+  "date": "2026-06-21",
+  "licence": "BSD-2-Clause (LICENSE); BSD-3-Clause (LICENSE.bencode)",
+  "used_by": "UADE (library it needs)",
+  "archive": "bencodetools-5fa73d3.tar.xz",
+  "size": 34036,
+  "sha256": "83a4b86db445a5373d48cc36835ffcafbcd272bbfbfedbc144a2461e42649576"
+ },
+ {
+  "name": "bmxplay",
+  "url": "https://github.com/joric/bmxplay.git",
+  "version": "e77f921",
+  "commit": "e77f921f35caf075876d676a87cc84161b132416",
+  "date": "2026-04-15",
+  "licence": "public domain (README.md)",
+  "used_by": "bbmp-pc (Buzz .bmx)",
+  "archive": "bmxplay-e77f921.tar.xz",
+  "size": 84832,
+  "sha256": "53acc589abe4779226076685a6d254ccf19df2c94aba18748120cba731947de5"
+ },
+ {
+  "name": "boost",
+  "url": "https://github.com/boostorg/boost/releases/download/boost-1.92.0/boost-1.92.0-b2-nodocs.tar.xz",
+  "version": "1.92.0",
+  "licence": "BSL-1.0",
+  "used_by": "bbmp-zxtune, bbmp-ay-vt2 (its headers only)",
+  "archive": "boost-1.92.0-b2-nodocs.tar.xz",
+  "size": 52633196,
+  "sha256": "ea7b982002cc9dfbe59b0b217b206f470dc75f3de0bb2973d844118934d82411"
+ },
+ {
+  "name": "cc65",
+  "url": "https://github.com/cc65/cc65.git",
+  "version": "5552824",
+  "commit": "555282497c3ecf8b313d87d5973093af19c35bd5",
+  "date": "2020-05-30",
+  "licence": "zlib (LICENSE)",
+  "used_by": "bbmp-retro (ca65/ld65 assemble the NerdTracker 2 replay)",
+  "archive": "cc65-5552824.tar.xz",
+  "size": 1455832,
+  "sha256": "7c343f5631e33a6f15243c8acd6696e30e5f26ea5011b984e6ae7d08454c0104"
+ },
+ {
+  "name": "dasm",
+  "url": "https://github.com/dasm-assembler/dasm.git",
+  "version": "0927086",
+  "commit": "09270863f5f70e5200c30d2778f654ff7a40adba",
+  "date": "2020-11-09",
+  "licence": "GPL-2.0 (LICENSE)",
+  "used_by": "bbmp-retro (dasm assembles VIC-TRACKER's player)",
+  "archive": "dasm-0927086.tar.xz",
+  "size": 896964,
+  "sha256": "8f02f0a304d17521cc90a42c179b1588214e6cba52ec2db3f60a2aa1d2f6cc98"
+ },
+ {
+  "name": "deadbeef_hq",
+  "url": "https://github.com/kode54/deadbeef_hq.git",
+  "version": "b92e40f",
+  "commit": "b92e40f5269f3c9eb95ce1b0ce49ac892c3a7a9b",
+  "date": "2012-12-28",
+  "submodules": [
+   {
+    "path": "QSoundCore",
+    "commit": "0cf02d89db9d936239a2d6ab99f5fc2c0a9a182b",
+    "url": "git@github.com:kode54/Highly_Quixotic.git"
+   },
+   {
+    "path": "psflib",
+    "commit": "4d957c21bf6134072d39a8fe7a014206f98cd975",
+    "url": "git@github.com:kode54/psflib.git"
+   }
+  ],
+  "licence": "GPL-2.0-or-later (header of hqplug.c); psflib MIT (psflib/LICENSE), Highly Quixotic GPL-3.0 (QSoundCore/LICENSE.TXT)",
+  "used_by": "bbmp-chip",
+  "archive": "deadbeef_hq-b92e40f.tar.xz",
+  "size": 47312,
+  "sha256": "dbcf1a6d73f7242287528d9a60781c2a68f2674e814266cc96d5ab86119aeb33"
+ },
+ {
+  "name": "emu2212",
+  "url": "https://github.com/digital-sound-antiques/emu2212.git",
+  "version": "ee35dbe",
+  "commit": "ee35dbe099f7242253e9b5b2a93847161a355c7b",
+  "date": "2026-07-22",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-retro (SCC-Musixx)",
+  "archive": "emu2212-ee35dbe.tar.xz",
+  "size": 4128,
+  "sha256": "30a8274c9700bf8a08ec08957ca7c17a1999f70d7c734b07ce92b16a5ea886d7"
+ },
+ {
+  "name": "emu2413",
+  "url": "https://github.com/digital-sound-antiques/emu2413.git",
+  "version": "2e4f6f9",
+  "commit": "2e4f6f9752f43cc33572c6636ca31a647600732c",
+  "date": "2026-09-28",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-fac",
+  "archive": "emu2413-2e4f6f9.tar.xz",
+  "size": 16036,
+  "sha256": "ab1a3cfb0fb42368569766fa61c94124bf225dac994c1b30a2f06978da4ca058"
+ },
+ {
+  "name": "emu8950",
+  "url": "https://github.com/digital-sound-antiques/emu8950.git",
+  "version": "fb129b1",
+  "commit": "fb129b18432c9a3255fdb87d87d968e79ab75e1c",
+  "date": "2026-09-07",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-fac",
+  "archive": "emu8950-fb129b1.tar.xz",
+  "size": 14788,
+  "sha256": "1d00b4f2cf77525434b01fe5f92a968f966e3a9cc533092e7e2815d59175363c"
+ },
+ {
+  "name": "eupplayer",
+  "url": "https://github.com/tjhayasaka/eupplayer.git",
+  "version": "8587733",
+  "commit": "8587733b18598e04ffea89c4b7a35c53b452d959",
+  "date": "2023-07-31",
+  "licence": "GPL-2.0 (COPYING)",
+  "used_by": "bbmp-chip",
+  "archive": "eupplayer-8587733.tar.xz",
+  "size": 45132,
+  "sha256": "9efa31e3211dd84b5e69625d30707b56a85da9d6e3a786983f1050cfab332aa7",
+  "local_patch": "eupplayer-8587733.local-changes.patch"
+ },
+ {
+  "name": "fmplayer",
+  "url": "https://github.com/takamichih/fmplayer.git",
+  "version": "4fa914e",
+  "commit": "4fa914e4b2b994cb3ccf92d571a20a7cdf1fe36a",
+  "date": "2024-07-23",
+  "licence": "BSD-2-Clause (LICENSE)",
+  "used_by": "bbmp-chip",
+  "archive": "fmplayer-4fa914e.tar.xz",
+  "size": 405416,
+  "sha256": "4e9f39e9ae04587ea652909d1607479fdc66b7c02e38cb6449414e15d432a167"
+ },
+ {
+  "name": "furnace",
+  "url": "https://github.com/tildearrow/furnace.git",
+  "version": "fa9541d",
+  "commit": "fa9541db8004fcdab92808ef57779cd0249e451f",
+  "date": "2026-09-28",
+  "submodules": [
+   {
+    "path": "extern/SDL",
+    "commit": "6371fd44c8a3cdfb3166b36d4798f5daeca2eeee",
+    "url": "https://github.com/tildearrow/SDL.git"
+   },
+   {
+    "path": "extern/YM2414-LLE",
+    "commit": "5e924ad7711ecb104b645f02d3794ca53f510ccd",
+    "url": "https://github.com/nukeykt/YM2414-LLE.git"
+   },
+   {
+    "path": "extern/adpcm",
+    "commit": "ef7a217154badc3b99978ac481b268c8aab67bd8",
+    "url": "https://github.com/superctr/adpcm"
+   },
+   {
+    "path": "extern/asio",
+    "commit": "d540a3bf2a40c406b8ef4ee392788e02f5f10175",
+    "url": "https://github.com/tildearrow/asio-cmake.git"
+   },
+   {
+    "path": "extern/fmt",
+    "commit": "e57ca2e3685b160617d3d95fcd9e789c4e06ca88",
+    "url": "https://github.com/fmtlib/fmt.git"
+   },
+   {
+    "path": "extern/json",
+    "commit": "d10879bca8f0aa790105446075a9525b34a3f718",
+    "url": "https://github.com/nlohmann/json.git"
+   }
+  ],
+  "licence": "GPL-2.0-or-later (LICENSE); the ASIO part GPL-3.0; submodules their own",
+  "used_by": "bbmp-furnace",
+  "archive": "furnace-fa9541d.tar.xz",
+  "size": 66304648,
+  "sha256": "b30dbefa5511c4b0508b081b4245e6cf051909ef540db13cec16891bf370b611",
+  "changed": {
+   "why": "the demo songs; its two copies of the YM2608's rhythm ROM, Yamaha's (the player's build reads the user's copy instead)",
+   "files_taken_out": 518
+  },
+  "original_sha256": "4b6cc194ce62cdbe64d25a7fd646c4638b7293494174987a3227db5ab2a4e15f",
+  "local_patch": "furnace-fa9541d.local-changes.patch"
+ },
+ {
+  "name": "game-music-emu",
+  "url": "https://github.com/libgme/game-music-emu.git",
+  "version": "f68963b",
+  "commit": "f68963b1de0633149b05732113d3c3113c6f63a1",
+  "date": "2026-09-08",
+  "licence": "LGPL-2.1-or-later (license.txt)",
+  "used_by": "the player's Game Music Emu library (with its HES fix)",
+  "archive": "game-music-emu-f68963b.tar.xz",
+  "size": 263228,
+  "sha256": "91218a039c393208e652e9abbbd9af8d4418100e5149ab5bc4ca6c0334b689fc"
+ },
+ {
+  "name": "lhafile",
+  "url": "https://pypi.org/project/lhafile/0.3.1/",
+  "version": "0.3.1",
+  "licence": "BSD-3-Clause (COPYING.txt)",
+  "used_by": "bbmp-amiga (runs StoneTracker's unpacker) when vamos/lha are not installed",
+  "archive": "lhafile-0.3.1.tar.gz",
+  "size": 14541,
+  "sha256": "a66a091e61af569384844ed74bf76179c575e5d28bc88bf9bf5476a3397d077d"
+ },
+ {
+  "name": "libbinio",
+  "url": "https://github.com/adplug/libbinio.git",
+  "version": "3baed73",
+  "commit": "3baed731da6b44883c6820132fb1d2a44abc0939",
+  "date": "2026-07-26",
+  "licence": "LGPL-2.1 (COPYING)",
+  "used_by": "bbmp-chip, bbmp-misc (through AdPlug)",
+  "archive": "libbinio-3baed73.tar.xz",
+  "size": 56496,
+  "sha256": "5fe051d1a6cc1c3d4754102223a54a0978e09fdfb996433b40d0f909fe76eae2"
+ },
+ {
+  "name": "libgme",
+  "url": "https://github.com/libgme/game-music-emu/releases/tag/0.6.5",
+  "version": "0.6.5",
+  "licence": "LGPL-2.1-or-later",
+  "used_by": "backend gme.py; bbmp-retro links it",
+  "archive": "libgme-0.6.5-src.tar.gz",
+  "size": 347787,
+  "sha256": "a133f19278222136ba0d8c27b64a07987ba05fec9d2e6d293ccd8cabdd97ddbb"
+ },
+ {
+  "name": "libkss",
+  "url": "https://github.com/digital-sound-antiques/libkss.git",
+  "version": "15fb77f",
+  "commit": "15fb77fbb949d9d679df7e9652723b2c41b9f46e",
+  "date": "2026-09-29",
+  "submodules": [
+   {
+    "path": "modules/drivers",
+    "commit": "e8032da38ea8439caca699954fce82b5050bf86f",
+    "url": "https://github.com/digital-sound-antiques/kss-drivers.git"
+   },
+   {
+    "path": "modules/emu2149",
+    "commit": "1ca770bf7bd480251eee6608b4a3e5caddea931e",
+    "url": "https://github.com/digital-sound-antiques/emu2149.git"
+   },
+   {
+    "path": "modules/emu2212",
+    "commit": "ee35dbe099f7242253e9b5b2a93847161a355c7b",
+    "url": "https://github.com/digital-sound-antiques/emu2212.git"
+   },
+   {
+    "path": "modules/emu2413",
+    "commit": "2e4f6f9752f43cc33572c6636ca31a647600732c",
+    "url": "https://github.com/digital-sound-antiques/emu2413.git"
+   },
+   {
+    "path": "modules/emu76489",
+    "commit": "36a784abd7d64fcf89be35015059531a154e5a9a",
+    "url": "https://github.com/digital-sound-antiques/emu76489.git"
+   },
+   {
+    "path": "modules/emu8950",
+    "commit": "fb129b18432c9a3255fdb87d87d968e79ab75e1c",
+    "url": "https://github.com/digital-sound-antiques/emu8950.git"
+   },
+   {
+    "path": "modules/kmz80",
+    "commit": "86f9e79db4557360db42efe2f760a94b685f2ee9",
+    "url": "https://github.com/digital-sound-antiques/kmz80.git"
+   }
+  ],
+  "licence": "ISC (LICENSE.md); its two MSX drivers left in modules/drivers (MGSDRV, MoonBlaster) under their authors' terms (README.md)",
+  "used_by": "bbmp-chip",
+  "archive": "libkss-15fb77f.tar.xz",
+  "size": 94096,
+  "sha256": "b943e96eb5a6de92c797dbd2cd11ad7d8e6b8d35ed1e371d83c1d132d0c02bd8",
+  "changed": {
+   "why": "four MSX music drivers whose terms are not known (MuSICA/Kinrou5, MPK 1.03 and 1.06, OPX4KSS); the player downloads them from their repository when asked",
+   "files_taken_out": 4
+  },
+  "original_sha256": "0026b42a7b324c25e8dcfb2d4a9cf3e7ddb2e54ecd12db44555196093bd252ab"
+ },
+ {
+  "name": "libnezplug",
+  "url": "https://github.com/gcielniak/libnezplug.git",
+  "version": "161d6e2",
+  "commit": "161d6e2b7187dc1426e33bd0f39d79b865899cca",
+  "date": "2024-08-01",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-nez",
+  "archive": "libnezplug-161d6e2.tar.xz",
+  "size": 121080,
+  "sha256": "84aeab7d55a5743d410179c415dc2ffabf4946052437cf3e422660476b8d99e0",
+  "local_patch": "libnezplug-161d6e2.local-changes.patch"
+ },
+ {
+  "name": "libopenmpt",
+  "url": "https://lib.openmpt.org/files/libopenmpt/src/",
+  "version": "0.8.9",
+  "licence": "BSD-3-Clause",
+  "used_by": "backend openmpt.py; bbmp-pc, bbmp-retro link it",
+  "archive": "libopenmpt-0.8.9+release.autotools.tar.gz",
+  "size": 1765691,
+  "sha256": "d7ce84fd05d686c4bcf66af40eae857afa371442db60eeda3f874bd6cf6fc318"
+ },
+ {
+  "name": "libpxtone",
+  "url": "https://github.com/Wohlstand/libpxtone.git",
+  "version": "dec7b60",
+  "commit": "dec7b6015a3f2736603d02bfb5e4b9bd453fc41c",
+  "date": "2025-10-15",
+  "licence": "free to use and change without asking (LICENSE, in Japanese)",
+  "used_by": "bbmp-chip",
+  "archive": "libpxtone-dec7b60.tar.xz",
+  "size": 180056,
+  "sha256": "d186581a7996c1ecdaad7239d8f4b7865a034b8ddd8fade52165d763a219b004"
+ },
+ {
+  "name": "libresidfp",
+  "url": "https://github.com/libsidplayfp/libresidfp/releases/tag/v1.2.2",
+  "version": "1.2.2",
+  "licence": "GPL-2.0",
+  "used_by": "bbmp-retro (CyberTracker) links it; libsidplayfp uses it",
+  "archive": "libresidfp-1.2.2.tar.gz",
+  "size": 539749,
+  "sha256": "2eb0204b76d52fe825c0e1f98826f62a179033a60543032d0e8b90060ecaa50e"
+ },
+ {
+  "name": "libsidplayfp",
+  "url": "https://github.com/libsidplayfp/libsidplayfp/releases/tag/v3.1.1",
+  "version": "3.1.1",
+  "licence": "GPL-2.0",
+  "used_by": "backend sid.py (through csrc/sidshim.cpp)",
+  "archive": "libsidplayfp-3.1.1.tar.gz",
+  "size": 697557,
+  "sha256": "12b79190593bf480b2d11481b5c2de62bac07f344437a66cd8d887329875c626"
+ },
+ {
+  "name": "libxmp",
+  "url": "https://github.com/libxmp/libxmp.git",
+  "version": "1e08121",
+  "commit": "1e0812137e4f9e15cc026c0c75af82d71d3cb5ad",
+  "date": "2026-09-11",
+  "licence": "MIT (docs/COPYING)",
+  "used_by": "bbmp-xmp",
+  "archive": "libxmp-1e08121.tar.xz",
+  "size": 4149476,
+  "sha256": "c7b12c63670f4dc2b9531a38b80a2d63fafcc237b327f90172ab28767bcabcd5",
+  "changed": {
+   "why": "the test songs of its developers' tests",
+   "files_taken_out": 1317
+  },
+  "original_sha256": "8b794cdca912cd0902db58f02d86450f73716bf983fea3d85f4777418dbb6bb3"
+ },
+ {
+  "name": "libzakalwe",
+  "url": "https://gitlab.com/hors/libzakalwe.git",
+  "version": "f40771d",
+  "commit": "f40771d472d1a3846969678d893846a48c16b025",
+  "date": "2026-09-20",
+  "licence": "BSD-2-Clause (COPYING)",
+  "used_by": "UADE (library it needs)",
+  "archive": "libzakalwe-f40771d.tar.xz",
+  "size": 205296,
+  "sha256": "da481148e0fa44d6436c099b5ab9dbc8e865d5272488ee221b6644ea7e61a773"
+ },
+ {
+  "name": "linkify_it_py-wheel",
+  "url": "https://pypi.org/project/linkify-it-py/2.2.0/",
+  "version": "2.2.0",
+  "licence": "MIT (its metadata)",
+  "used_by": "textual",
+  "archive": "linkify_it_py-2.2.0-py3-none-any.whl",
+  "size": 21971,
+  "sha256": "3adc40eb5af300b2605fcfdb968c24e1d780a90f1f2221af7c15e5111e94d443"
+ },
+ {
+  "name": "machine68k",
+  "url": "https://pypi.org/project/machine68k/0.3.0/",
+  "version": "0.3.0",
+  "licence": "GPL-2.0 (PyPI metadata)",
+  "used_by": "bbmp-amiga (runs StoneTracker's unpacker) when vamos/lha are not installed",
+  "archive": "machine68k-0.3.0.tar.gz",
+  "size": 398247,
+  "sha256": "40bf621b208ae402317c3bd0abb7b6ae36124a2fc416d33599f35ee337028deb"
+ },
+ {
+  "name": "markdown_it_py-wheel",
+  "url": "https://pypi.org/project/markdown-it-py/4.2.0/",
+  "version": "4.2.0",
+  "licence": "MIT License (its metadata)",
+  "used_by": "textual",
+  "archive": "markdown_it_py-4.2.0-py3-none-any.whl",
+  "size": 91687,
+  "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a"
+ },
+ {
+  "name": "mdit_py_plugins-wheel",
+  "url": "https://pypi.org/project/mdit-py-plugins/0.6.1/",
+  "version": "0.6.1",
+  "licence": "MIT License (its metadata)",
+  "used_by": "textual",
+  "archive": "mdit_py_plugins-0.6.1-py3-none-any.whl",
+  "size": 66663,
+  "sha256": "214c82fb2ac524472ab6a5bcab1de80f73b50443e187f401bfd77efbc7c6481d"
+ },
+ {
+  "name": "mdurl-wheel",
+  "url": "https://pypi.org/project/mdurl/0.1.2/",
+  "version": "0.1.2",
+  "licence": "MIT License (its metadata)",
+  "used_by": "textual",
+  "archive": "mdurl-0.1.2-py3-none-any.whl",
+  "size": 9979,
+  "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+ },
+ {
+  "name": "mdxmini",
+  "url": "https://github.com/mistydemeo/mdxmini.git",
+  "version": "003531a",
+  "commit": "003531a471c1955f4ed4357d0e2a6cba809c34a0",
+  "date": "2022-10-04",
+  "licence": "GPL-2.0 (COPYING)",
+  "used_by": "bbmp-chip",
+  "archive": "mdxmini-003531a.tar.xz",
+  "size": 77304,
+  "sha256": "0a5cffb8011df9a12f6bc5f290e5b266d022a43137fbeffa43f2cb29e77fc89c"
+ },
+ {
+  "name": "mikmod",
+  "url": "https://github.com/sezero/mikmod.git",
+  "version": "8de19ee",
+  "commit": "8de19eef766d9ba30a74c19e566edfcd61851dba",
+  "date": "2026-09-11",
+  "licence": "LGPL-2.1 (libmikmod/COPYING.LIB)",
+  "used_by": "bbmp-pc (UNITRK)",
+  "archive": "mikmod-8de19ee.tar.xz",
+  "size": 487300,
+  "sha256": "5c0c64520cc3451618b12c763aa40c9cad3685cd7f8ff7557e61e9d186100fbf"
+ },
+ {
+  "name": "miniaudio",
+  "url": "https://raw.githubusercontent.com/mackron/miniaudio/0.11.22/miniaudio.h",
+  "version": "0.11.22",
+  "licence": "public domain or MIT-0, as you choose (at the end of the file)",
+  "used_by": "libbbmp-out (the sound output on macOS)",
+  "archive": "miniaudio-0.11.22.h",
+  "size": 4025780,
+  "sha256": "9019743287e443c55e5737a7297f38e5e358561701d6db2d905afb114390c410"
+ },
+ {
+  "name": "nedplay",
+  "url": "https://www.nesdev.org/nt2/download/nedplay.zip",
+  "version": "22",
+  "licence": "free for any non-commercial use (NerdTracker 2's home page, https://nesdev.org/nt2/); the zip itself states none",
+  "used_by": "bbmp-retro (NerdTracker 2 replay routine)",
+  "archive": "nedplay.zip",
+  "size": 177497,
+  "sha256": "84602a2164280c3a10b080c21fd43f3cac7b6e41e6a53e94faf859c596b4e76f"
+ },
+ {
+  "name": "nostalgicplayer-musicline",
+  "url": "https://github.com/neumatho/NostalgicPlayer (Tables.cs and LICENSE at commit 2485bec27b1f02c13d0fe70c7c796acd61e36223)",
+  "version": "2485bec",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-musicline (its tables)",
+  "archive": "nostalgicplayer-musicline-2485bec.tar.xz",
+  "size": 23764,
+  "sha256": "3921f30ab982a102f5acf4e5b5123d05719b2d4679196e0af062a8740d9d1940"
+ },
+ {
+  "name": "numpy-wheel",
+  "url": "https://pypi.org/project/numpy/2.5.3/",
+  "version": "2.5.3",
+  "licence": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0 (its metadata)",
+  "used_by": "the player (loudness, visuals)",
+  "archive": "numpy-2.5.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+  "size": 16711928,
+  "sha256": "b0521d0f4aebb6e06189451025fa17a913287b13c03d5fe05c017333b654ea5b"
+ },
+ {
+  "name": "openmpt-skm",
+  "url": "https://github.com/OpenMPT/openmpt.git",
+  "version": "0eafb12",
+  "commit": "0eafb124cfd15f94e32302734607e71f2c36c84f",
+  "date": "2026-08-19",
+  "licence": "BSD-3-Clause (LICENSE)",
+  "used_by": "bbmp-synth (Skale Tracker, libopenmpt with the SKM loader)",
+  "archive": "openmpt-skm-0eafb12.tar.xz",
+  "size": 20150356,
+  "sha256": "a6a46d498cbdd082461849f21dce838796e08dd1adffc23d08982b31e8c586db",
+  "local_patch": "openmpt-skm-0eafb12.local-changes.patch"
+ },
+ {
+  "name": "organya.h",
+  "url": "https://github.com/Strultz/organya.h.git",
+  "version": "f7a086f",
+  "commit": "f7a086fc00f21de5e1c410d38d7412627b8d2cf0",
+  "date": "2026-08-28",
+  "licence": "zlib (LICENSE.md)",
+  "used_by": "bbmp-chip",
+  "archive": "organya.h-f7a086f.tar.xz",
+  "size": 469336,
+  "sha256": "b0e6b8c3e672c61de4c5e7c455a6f87b6ef73aefaeef415d5e1635df309a9e80",
+  "changed": {
+   "why": "the sound bank default.wdb (no terms of its own; the player downloads it when asked)",
+   "files_taken_out": 1
+  },
+  "original_sha256": "c27f4720aa56c16be01b15ac994d039dfffe853137eac627ad67a3efaebe97e5"
+ },
+ {
+  "name": "packaging-wheel",
+  "url": "https://pypi.org/project/packaging/26.3/",
+  "version": "26.3",
+  "licence": "Apache-2.0 OR BSD-2-Clause (its metadata)",
+  "used_by": "setuptools-scm",
+  "archive": "packaging-26.3-py3-none-any.whl",
+  "size": 129956,
+  "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+ },
+ {
+  "name": "platformdirs-wheel",
+  "url": "https://pypi.org/project/platformdirs/4.11.12/",
+  "version": "4.11.12",
+  "licence": "MIT (its metadata)",
+  "used_by": "textual",
+  "archive": "platformdirs-4.11.12-py3-none-any.whl",
+  "size": 24976,
+  "sha256": "b1ba966ac76153d9985a0787ffab951e7c18416189873d4e4ddb2c8a04a0a254"
+ },
+ {
+  "name": "psgplay",
+  "url": "https://github.com/frno7/psgplay.git",
+  "version": "6f1c39f",
+  "commit": "6f1c39ffdacd4e568893c634033a571b2a34a01a",
+  "date": "2026-09-08",
+  "submodules": [
+   {
+    "path": "lib/cf2149",
+    "commit": "5a801f4f9f086b858c21333de357d362b38f17f8",
+    "url": "https://github.com/frno7/cf2149"
+   },
+   {
+    "path": "lib/cf300588",
+    "commit": "c1dc39861735e209fdc0e006ac54803e50597261",
+    "url": "https://github.com/frno7/cf300588"
+   },
+   {
+    "path": "lib/cf68901",
+    "commit": "9dc1319e549efebafb658f5ce5f23fb2602c4b02",
+    "url": "https://github.com/frno7/cf68901"
+   },
+   {
+    "path": "lib/toslibc",
+    "commit": "162a2fb429879654e55dedd5b3abd14cece32e11",
+    "url": "https://github.com/frno7/toslibc"
+   }
+  ],
+  "licence": "GPL-2.0 (SPDX lines in the source files; no licence file)",
+  "used_by": "bbmp-chip",
+  "archive": "psgplay-6f1c39f.tar.xz",
+  "size": 284424,
+  "sha256": "e99743d197db6422e91e8a698a7c68c4aeb0db3ed10ee433019a8ea2dcc40d95"
+ },
+ {
+  "name": "psycle",
+  "url": "https://svn.code.sf.net/p/psycle/code/trunk (svn export -r 12005)",
+  "version": "r12005",
+  "licence": "GPL-2.0-or-later (COPYING); STK: its own MIT-style licence",
+  "used_by": "bbmp-psycle",
+  "archive": "psycle-r12005.tar.xz",
+  "size": 3480948,
+  "sha256": "0d8b4f776c90f318f78fa5365fd708753ecfcb375039cfd1e0999a96f518d23b"
+ },
+ {
+  "name": "pygments-wheel",
+  "url": "https://pypi.org/project/pygments/2.21.0/",
+  "version": "2.21.0",
+  "licence": "BSD-2-Clause (its metadata)",
+  "used_by": "textual",
+  "archive": "pygments-2.21.0-py3-none-any.whl",
+  "size": 1250147,
+  "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+ },
+ {
+  "name": "rePlayer",
+  "url": "https://github.com/arnaud-neny/rePlayer.git",
+  "version": "e3bf02c",
+  "commit": "e3bf02cb41a40cdaebf8dc80efc0ae5ac488dc38",
+  "date": "2026-09-27",
+  "licence": "per replay: ProTrekkr BSD-2-Clause, libpac (SBStudio) ISC, WonderSwan (Mednafen) GPL-2.0",
+  "used_by": "bbmp-console (WonderSwan), bbmp-synth (ProTrekkr, SBStudio/libpac)",
+  "archive": "rePlayer-e3bf02c.tar.xz",
+  "size": 271136,
+  "sha256": "8b5701e337f2515cbdf4560702cd289fdea282f3e7f1a2920c22d3d1565d9d81",
+  "changed": {
+   "why": "the Buzzic 2, JayTrax and Ken replays (no licence stated; the player has its own engines for these formats)",
+   "files_taken_out": 32
+  },
+  "original_sha256": "8208ea7ed01a3a567af1a7fc63eccb81971ca3f28f21bace9c9466cef48361a2",
+  "local_patch": "rePlayer-e3bf02c.local-changes.patch"
+ },
+ {
+  "name": "retrovert-playback-klystrack",
+  "url": "https://github.com/RetrovertApp/playback-klystrack.git",
+  "version": "aad080d",
+  "commit": "aad080d91322f1b6709401e30742a4ba3bbc1e40",
+  "date": "2026-09-13",
+  "licence": "MIT (LICENSE); klystron: MIT",
+  "used_by": "bbmp-rv (klystrack_playback.so)",
+  "archive": "retrovert-playback-klystrack-aad080d.tar.xz",
+  "size": 108948,
+  "sha256": "60a9cae346936a9c78a4d388e5c80686e15a9cc0e7a547fbbadde887a1408b26"
+ },
+ {
+  "name": "rgbds",
+  "url": "https://github.com/gbdev/rgbds/releases/download/v0.6.1/rgbds-0.6.1.tar.gz",
+  "version": "0.6.1",
+  "licence": "MIT (LICENSE)",
+  "used_by": "bbmp-retro (assembles the Game Boy SoundSystem driver)",
+  "archive": "rgbds-0.6.1.tar.gz",
+  "size": 8040703,
+  "sha256": "872018509c6cbc2d9e947a1a6d509fd9dc56a010827f608c5f4fa46de2fa186a"
+ },
+ {
+  "name": "rich-wheel",
+  "url": "https://pypi.org/project/rich/15.0.0/",
+  "version": "15.0.0",
+  "licence": "MIT (its metadata)",
+  "used_by": "textual",
+  "archive": "rich-15.0.0-py3-none-any.whl",
+  "size": 310654,
+  "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb"
+ },
+ {
+  "name": "sc68",
+  "url": "https://downloads.sourceforge.net/project/sc68/sc68/2.2.1/sc68-2.2.1.tar.gz",
+  "version": "2.2.1",
+  "licence": "GPL-2.0 (COPYING)",
+  "used_by": "bbmp-chip (SC68); backend sc68_amiga.py reads its replay list",
+  "archive": "sc68-2.2.1.tar.gz",
+  "size": 545540,
+  "sha256": "9c84f7f838651def746cc14a8f712ff67ed8b9548f4feffc3acef574659cd675",
+  "changed": {
+   "why": "78 replay routines taken from games, editors and demos (the player downloads them from sc68's release when asked), and the sample song; sc68's own six stubs stay",
+   "files_taken_out": 79
+  },
+  "original_sha256": "d7371f0f406dc925debf50f64df1f0700e1d29a8502bb170883fc41cc733265f"
+ },
+ {
+  "name": "scummvm-maxtrax",
+  "url": "https://github.com/scummvm/scummvm (audio/mods/maxtrax.* and paula.* at commit e6c3b103c96822eb9212f743be63c998383f7c4f)",
+  "version": "e6c3b10",
+  "licence": "GPL-3.0-or-later (ScummVM)",
+  "used_by": "bbmp-amiga (MaxTrax)",
+  "archive": "scummvm-maxtrax-e6c3b10.tar.xz",
+  "size": 15468,
+  "sha256": "f04c35a295fe60e8bc04a86e6430d7a9044d655083c385b296f8c52d928212f5"
+ },
+ {
+  "name": "setuptools_scm-wheel",
+  "url": "https://pypi.org/project/setuptools-scm/10.3.4/",
+  "version": "10.3.4",
+  "licence": "MIT (its metadata)",
+  "used_by": "build-amiga.sh (builds amitools, machine68k)",
+  "archive": "setuptools_scm-10.3.4-py3-none-any.whl",
+  "size": 33366,
+  "sha256": "82f34c3e3084fc2b57d397200637cc13f2338004052d2fee47baa5f0e902464e"
+ },
+ {
+  "name": "skale-skm-loader-openmpt",
+  "url": "https://github.com/lpreiner/skale-skm-loader-openmpt.git",
+  "version": "27dde22",
+  "commit": "27dde229f19bd8a1c05ba04314ed5e17a086fcee",
+  "date": "2026-08-25",
+  "licence": "BSD-2-Clause (LICENSE)",
+  "used_by": "bbmp-synth (Skale Tracker)",
+  "archive": "skale-skm-loader-openmpt-27dde22.tar.xz",
+  "size": 20868,
+  "sha256": "3e0da971cbdd964736403cd5280b50d5dbc38c47d743f55b0b2046926b645af1"
+ },
+ {
+  "name": "snsf9x",
+  "url": "https://github.com/loveemu/snsf9x.git",
+  "version": "128cb0d",
+  "commit": "128cb0d500c98caa815da117eb0339873cf157ae",
+  "date": "2015-06-30",
+  "licence": "Snes9x licence: non-commercial (snsf9x/snes9x/docs/snes9x-license.txt)",
+  "used_by": "bbmp-chip",
+  "archive": "snsf9x-128cb0d.tar.xz",
+  "size": 110896,
+  "sha256": "95ff5c7995bf161ebaae5284fb679b27da801b4773e7f0b5ba0d915e66711f69"
+ },
+ {
+  "name": "sse2neon",
+  "url": "https://raw.githubusercontent.com/DLTcollab/sse2neon/v1.8.0/sse2neon.h",
+  "version": "1.8.0",
+  "licence": "MIT (at the top of the file)",
+  "used_by": "bbmp-darkwave on ARM (macOS): SSE2 instructions as NEON",
+  "archive": "sse2neon-1.8.0.h",
+  "size": 408397,
+  "sha256": "07723c9f9457dd4316f1fde3dd4eb6f31dd67d9955f6c21f4e609ac1698be48a"
+ },
+ {
+  "name": "stonefree2",
+  "url": "https://aminet.net/mus/edit/stonefree2.lha",
+  "version": "1.26 free",
+  "licence": "freely distributable (Aminet)",
+  "used_by": "bbmp-amiga (StoneTracker replay routine)",
+  "archive": "stonefree2.lha",
+  "size": 724189,
+  "sha256": "3be292345dcb530bb923926e26dc873980570a5d450b5ef6f0bcf5c97a93f071"
+ },
+ {
+  "name": "stonefree2.readme",
+  "url": "https://aminet.net/mus/edit/stonefree2.readme",
+  "version": "1.26 free",
+  "licence": "the archive's terms: it may be passed on as long as this readme goes with it",
+  "used_by": "bbmp-amiga (StoneTracker: the terms; installed with the archive)",
+  "archive": "stonefree2.readme",
+  "size": 6621,
+  "sha256": "d425e7739971299d86222fa86da8eb69af13667ce280b4646236421f1803b7eb"
+ },
+ {
+  "name": "sunvox_lib",
+  "url": "https://warmplace.ru/soft/sunvox/sunvox_lib-2.1.4d.zip",
+  "version": "2.1.4d",
+  "licence": "MIT (sunvox_lib/docs/license/LICENSE.txt)",
+  "used_by": "backend sunvox.py (sunvox.so)",
+  "archive": "sunvox_lib-2.1.4d.zip",
+  "size": 16015165,
+  "sha256": "abe851de9d65a10e06673bf33257154591a2ff63ad2bb298488a5941cc5f4057"
+ },
+ {
+  "name": "textual-wheel",
+  "url": "https://pypi.org/project/textual/8.2.8/",
+  "version": "8.2.8",
+  "licence": "MIT (its metadata)",
+  "used_by": "the player",
+  "archive": "textual-8.2.8-py3-none-any.whl",
+  "size": 731418,
+  "sha256": "267375fd402dc8d981457212efa71f0e3365fd17bba144ba9bb3ed7563cb374a"
+ },
+ {
+  "name": "typing_extensions-wheel",
+  "url": "https://pypi.org/project/typing-extensions/4.16.0/",
+  "version": "4.16.0",
+  "licence": "PSF-2.0 (its metadata)",
+  "used_by": "textual",
+  "archive": "typing_extensions-4.16.0-py3-none-any.whl",
+  "size": 45571,
+  "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+ },
+ {
+  "name": "uade",
+  "url": "https://gitlab.com/uade-music-player/uade.git",
+  "version": "8d77cd7",
+  "commit": "8d77cd773e10d33de44f2b6c52201bb54732b701",
+  "date": "2026-09-20",
+  "licence": "GPL-2.0 (UAE code, COPYING.GPL) and LGPL-2.1 (COPYING.LGPL); each of the 18 Amiga players in players/ under its own terms (COPYING)",
+  "used_by": "backend uade.py (libuade.so); bbmp-amiga (its include files)",
+  "archive": "uade-8d77cd7.tar.xz",
+  "size": 1144700,
+  "sha256": "d1ebd5e6c48e8748a330e9863e36242f7769b5478d1833dfb8ed540f93589b87",
+  "changed": {
+   "why": "all Amiga players but the 18 whose terms allow passing them on, and the sources of the others (the player downloads them from UADE's repository when asked); the example song",
+   "files_taken_out": 1394
+  },
+  "original_sha256": "6ade4fa2bbf59748ccdf902df56209b05b4a66e35bd41cfea099393ed547c2ca"
+ },
+ {
+  "name": "uc_micro_py-wheel",
+  "url": "https://pypi.org/project/uc-micro-py/2.0.0/",
+  "version": "2.0.0",
+  "licence": "MIT (its metadata)",
+  "used_by": "textual",
+  "archive": "uc_micro_py-2.0.0-py3-none-any.whl",
+  "size": 6383,
+  "sha256": "3603a3859af53e5a39bc7677713c78ea6589ff188d70f4fee165db88e22b242c"
+ },
+ {
+  "name": "vasm",
+  "url": "http://phoenix.owl.de/tags/vasm2_0f.tar.gz",
+  "version": "2.0f",
+  "licence": "may be passed on unchanged, free for non-commercial use (doc/vasm.texi, Legal)",
+  "used_by": "bbmp-amiga (assembles the StoneTracker player) when vasmm68k_mot is not installed",
+  "archive": "vasm2_0f.tar.gz",
+  "size": 605655,
+  "sha256": "c84b2de1cbb87831795fe64a85c5d9a7002a766e3a7c30b0a2d7d5e99d878f49"
+ },
+ {
+  "name": "vcs_versioning-wheel",
+  "url": "https://pypi.org/project/vcs-versioning/2.5.0/",
+  "version": "2.5.0",
+  "licence": "MIT (its metadata)",
+  "used_by": "setuptools-scm",
+  "archive": "vcs_versioning-2.5.0-py3-none-any.whl",
+  "size": 122897,
+  "sha256": "dbf44f6303dc817e5792cb7d0e9cc90e3046ee1e32eaa357b20ad368811313d0"
+ },
+ {
+  "name": "victracker",
+  "url": "http://www.kahlin.net/daniel/victracker/vt-2.0/victracker-2.0.tar.gz",
+  "version": "2.0",
+  "licence": "BSD-3-Clause (LICENSE.txt)",
+  "used_by": "bbmp-retro (VIC-TRACKER 2.0's player.asm)",
+  "archive": "victracker-2.0.tar.gz",
+  "size": 116821,
+  "sha256": "d06c726fbde199cf00d66d1945317446cbf3f43c9e5e928ad5bd501d7c75da85"
+ },
+ {
+  "name": "ymfm",
+  "url": "https://codeload.github.com/aaronsgiles/ymfm/tar.gz/81aec25ccbb98f4873a255f7551ac4dadac59b4a",
+  "version": "81aec25ccbb9 2026-07-27",
+  "licence": "BSD-3-Clause (LICENSE)",
+  "used_by": "bbmp-chip (pmdc: the YM2608 under the player's own PMD driver)",
+  "archive": "ymfm-81aec25.tar.gz",
+  "size": 134878,
+  "sha256": "9bcf001b30f53754c49cf2fb864792a64702b8aeebb105baa908ad5dd33f443f"
+ },
+ {
+  "name": "zlib-blast",
+  "url": "https://raw.githubusercontent.com/madler/zlib/v1.3.1/contrib/blast/",
+  "version": "1.3.1",
+  "licence": "zlib (in blast.h)",
+  "used_by": "bbmp-misc (EdLib)",
+  "archive": "zlib-blast-1.3.1.tar.xz",
+  "size": 7000,
+  "sha256": "ef9909ce660e478e62004ed32f6316322392925038dea74d8c50161f3f7951ba"
+ },
+ {
+  "name": "zxtune",
+  "url": "https://github.com/vitamin-caig/zxtune.git",
+  "version": "e36902f",
+  "commit": "e36902fe1cc06d9e73116db644b688708a7745d4",
+  "date": "2026-09-28",
+  "licence": "LGPL-3.0 (LICENSE.md); 3rdparty/ has each library's own",
+  "used_by": "bbmp-zxtune, bbmp-ay-vt2",
+  "archive": "zxtune-e36902f.tar.xz",
+  "size": 70960128,
+  "sha256": "312bc4b33351cd15bae2182f40c18709199bc0a37ef73d3ccc27bfc5b040d04f",
+  "changed": {
+   "why": "Sony's PlayStation 2 BIOS image and the tool that carries more of Sony's code (the player reads the image from a file the user provides); unRAR and vgmstream (not built); of libvgm only the sound cores that state their licence and the headers they need (the rest states no licence and is not built); the YM2608's rhythm ROM, Yamaha's (in libvgm and in Game Music Emu's unbuilt fm.c: the player reads the user's copy); the example and test songs",
+   "files_taken_out": 1436
+  },
+  "original_sha256": "fe73db61bf4d434e53d231ecc5fbba51d68494c5fe5d0118fa22c0ede35a2a26"
+ }
+]
