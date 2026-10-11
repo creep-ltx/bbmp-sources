@@ -68,6 +68,7 @@ e99743d197db6422e91e8a698a7c68c4aeb0db3ed10ee433019a8ea2dcc40d95  archives/psgpl
 33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb  archives/rich-15.0.0-py3-none-any.whl
 9c84f7f838651def746cc14a8f712ff67ed8b9548f4feffc3acef574659cd675  archives/sc68-2.2.1.tar.gz
 f04c35a295fe60e8bc04a86e6430d7a9044d655083c385b296f8c52d928212f5  archives/scummvm-maxtrax-e6c3b10.tar.xz
+51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670  archives/setuptools-84.0.0-py3-none-any.whl
 82f34c3e3084fc2b57d397200637cc13f2338004052d2fee47baa5f0e902464e  archives/setuptools_scm-10.3.4-py3-none-any.whl
 3e0da971cbdd964736403cd5280b50d5dbc38c47d743f55b0b2046926b645af1  archives/skale-skm-loader-openmpt-27dde22.tar.xz
 95ff5c7995bf161ebaae5284fb679b27da801b4773e7f0b5ba0d915e66711f69  archives/snsf9x-128cb0d.tar.xz
