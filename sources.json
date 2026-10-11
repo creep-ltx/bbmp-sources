@@ -229,6 +229,16 @@
   "sha256": "7c343f5631e33a6f15243c8acd6696e30e5f26ea5011b984e6ae7d08454c0104"
  },
  {
+  "name": "cython",
+  "url": "https://pypi.org/project/Cython/3.3.0/",
+  "version": "3.3.0",
+  "licence": "Apache-2.0 (its metadata)",
+  "used_by": "bbmp-amiga on macOS: building amitools and machine68k (the Flatpak SDK has its own)",
+  "archive": "cython-3.3.0-py3-none-any.whl",
+  "size": 1349151,
+  "sha256": "9b24b5c8cd536946b62086fcafee6d5509d3f549f72d553d2336af87ffbe0da1"
+ },
+ {
   "name": "dasm",
   "url": "https://github.com/dasm-assembler/dasm.git",
   "version": "0927086",
